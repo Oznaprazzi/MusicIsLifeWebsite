@@ -1,0 +1,47 @@
+@media print {
+  
+	nav, #backtotop{
+		display: none;
+	}
+	
+	#container{
+		box-shadow: none;
+		margin-top: -120px;
+	}
+	
+	#container h2{
+		color: black;
+	}
+	
+	#container .p{
+		color: black;
+	}
+	
+	#container a{
+		color: black;
+	}
+	
+	header h1{
+		color: black;
+		font-size: 100px;
+		text-shadow: none;
+		margin-top: -10px;
+	}
+	
+	.printonly{
+		display: initial;
+	}
+	
+	.img{
+		margin-bottom: 10px;
+	}
+	
+	.noprint{
+		display: none;
+	}
+	
+	#fb-like, #fb-like2{
+		visibility: hidden;
+		display: none;
+	}
+}
